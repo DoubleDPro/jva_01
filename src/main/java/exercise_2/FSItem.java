@@ -1,4 +1,4 @@
-package exercise_1;
+package exercise_2;
 
 public interface FSItem {
 
@@ -7,7 +7,5 @@ public interface FSItem {
   void setName(String name);
 
   String getPath();
-
-  FSItem getParent();
 
 }
