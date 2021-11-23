@@ -2,14 +2,14 @@ package exercise_2;
 
 public class Link extends FileSystemComposite {
 
-  private FSItem link;
+  private FileSystemComposite link;
 
-  public Link(String name, String path, FSItem link) {
+  public Link(String name, String path, FileSystemComposite link) {
     super(name, path);
     this.link = link;
   }
 
-  public FSItem getLink() {
+  public FileSystemComposite getLink() {
     return link;
   }
 
